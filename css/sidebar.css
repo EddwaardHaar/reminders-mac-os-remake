@@ -7,6 +7,8 @@ aside{
 
 .controls{
     display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
 }
 .controls button{
     width: 1rem;
@@ -61,8 +63,7 @@ input{
 
     width: 100%;
     padding: 0.5rem;
-    margin-bottom: 1.5rem;
-    margin-top: 1rem;
+    margin-bottom: 1.25rem;
 
 }
 
@@ -85,24 +86,23 @@ input{
     padding: 0.5rem;
     border-radius: 0.5rem;
  }
-
-nav .today:hover,
-nav .today:active{
-    background: rgb(96, 165, 250);
-}
-
-nav .scheduled:hover,
-nav .scheduled:active{
-    background: rgb(250, 96, 96);
-}
-
-nav .all:hover,
-nav .all:active{
-    background: rgb(51, 53, 56);
-}
-
-nav .flagged:hover,
-nav .flagged:active{
-    background: rgb(250, 193, 96);
-}
+ nav .today:hover,
+ nav .today:active {
+     background: rgb(var(--color-today));
+ }
+ 
+ nav .scheduled:hover,
+ nav .scheduled:active {
+     background: rgb(var(--color-scheduled));
+ }
+ 
+ nav .all:hover,
+ nav .all:active {
+     background: rgb(var(--color-all-darker));
+ }
+ 
+ nav .flagged:hover,
+ nav .flagged:active {
+     background: rgb(var(--color-flagged));
+ }
  

@@ -4,7 +4,8 @@ main{
 }
 .add-new{
    display: flex;
-   justify-content: flex-end; 
+   justify-content: flex-end;
+   margin-bottom: 0.65rem; 
 }
 
 .add-new button{
@@ -22,4 +23,68 @@ main{
 .add-new button:hover,
 .add-new button:active{
     background: rgb(55,65,81);
+}
+
+/* TITLES*/ 
+
+h1{
+    font-size: 2.25rem;
+    font-family: "Arial", sans-serif;  
+    font-weight: bold;
+    margin-bottom: 1.35rem;  
+}
+
+h1.today {
+	color: rgb(var(--color-today));
+	display: block;
+}
+
+h1.scheduled {
+	color: rgb(var(--color-scheduled));
+    display: none;
+}
+
+h1.all {
+	color: rgb(var(--color-all));
+    display: none;
+}
+
+h1.flagged {
+	color: rgb(var(--color-flagged));
+    display: none;
+}
+ 
+
+/* TODOS */
+
+.todos li{
+    display: flex;
+    line-height: 1.25;
+}
+
+.todos p{
+    padding: 0.614rem 0;
+    border-bottom: 1px solid rgb(55, 65, 81);
+    flex-grow: 1;
+}
+
+.todos svg{
+    flex: none;
+
+    height: 2rem;
+    width: 2rem;
+
+    margin-top: 0.425rem;
+    margin-right: 0.425rem;
+
+    stroke: rgb(28, 34, 43);
+    stroke-width: 1;
+
+    fill: rgb(55, 65, 81);
+    cursor: pointer;
+}
+
+.todos svg:hover,
+.todos svg:active{
+    fill: rgb(251, 191, 36);
 }
