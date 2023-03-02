@@ -61,6 +61,8 @@ input{
 
     width: 100%;
     padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
 
 }
 
@@ -69,4 +71,38 @@ input{
     font-weight: normal;
  }
 
+ /*NAVIGATION*/
+
+ nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+ nav a{
+    font-weight: bold;  
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+ }
+
+nav .today:hover,
+nav .today:active{
+    background: rgb(96, 165, 250);
+}
+
+nav .scheduled:hover,
+nav .scheduled:active{
+    background: rgb(250, 96, 96);
+}
+
+nav .all:hover,
+nav .all:active{
+    background: rgb(51, 53, 56);
+}
+
+nav .flagged:hover,
+nav .flagged:active{
+    background: rgb(250, 193, 96);
+}
  
