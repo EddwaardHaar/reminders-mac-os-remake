@@ -105,4 +105,80 @@ input{
  nav .flagged:active {
      background: rgb(var(--color-flagged));
  }
+
+ /* NAV ICONS */
+
+ nav p {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ nav svg{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 2.25rem;
+
+    stroke: white;
+    fill: white;
+
+    padding: 0.5rem;
+    margin-bottom: 0.375rem;
+ }
  
+ .today svg{
+    background-color: rgb(var(--color-today));
+ }
+
+ .scheduled svg{
+    background-color: rgb(var(--color-scheduled));
+ }
+
+ .all svg{
+    background-color: rgb(var(--color-all-darker));
+ }
+
+ .flagged svg{
+    background-color: rgb(var(--color-flagged));
+ }
+
+ nav span {
+	font-size: 1.5rem;
+	line-height: 2.25rem;
+}
+
+
+/* FOOTER MY LIST*/
+
+
+h3{
+    margin-top: 0.85rem;
+    margin-left: 0.55rem;
+    margin-bottom: 0.55rem;
+}
+
+.my-list{
+      display: flex;
+      align-items: center; 
+}
+.my-list span {
+	font-size: 1.25rem;
+	line-height: 2.25rem;
+    margin-right: 0.12rem;
+}
+
+.home svg{
+    width: 2.25rem;
+    height: 2.25rem;
+    border-radius: 2.25rem;
+
+    stroke: white;
+    fill: white;
+
+    padding: 0.5rem;
+    margin-bottom: 0.375rem;
+ }
+
+
+.home svg{
+    background-color: rgb(var(--color-today));
+ }

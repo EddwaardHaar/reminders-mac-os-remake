@@ -32,6 +32,8 @@ h1{
     font-family: "Arial", sans-serif;  
     font-weight: bold;
     margin-bottom: 1.35rem;  
+
+    display: none;
 }
 
 h1.today {
@@ -41,17 +43,14 @@ h1.today {
 
 h1.scheduled {
 	color: rgb(var(--color-scheduled));
-    display: none;
 }
 
 h1.all {
 	color: rgb(var(--color-all));
-    display: none;
 }
 
 h1.flagged {
 	color: rgb(var(--color-flagged));
-    display: none;
 }
  
 
