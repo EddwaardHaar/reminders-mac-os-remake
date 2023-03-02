@@ -2,3 +2,24 @@ main{
     width: 66.666667%;
     border-left: 2px solid black;
 }
+.add-new{
+   display: flex;
+   justify-content: flex-end; 
+}
+
+.add-new button{
+    font-size: 1.5rem;
+
+    padding: 0.215rem 0.575rem 0.305rem 0.5rem;
+    margin-bottom: 0.75rem;
+
+
+    position: relative;
+        bottom:0.275rem;
+        right: -0.275rem;
+}
+
+.add-new button:hover,
+.add-new button:active{
+    background: rgb(55,65,81);
+}
